@@ -56,7 +56,7 @@ public class ApiClient {
                         return chain.proceed(request);
                     }
                 })
-                .sslSocketFactory(tlsV1point2factory, tlsV1point2factory.getX509TrustManager())
+                // .sslSocketFactory(tlsV1point2factory, tlsV1point2factory.getX509TrustManager())
                 .connectTimeout(5, TimeUnit.MINUTES)
                 .readTimeout(5, TimeUnit.MINUTES)
                 .writeTimeout(5, TimeUnit.MINUTES)
