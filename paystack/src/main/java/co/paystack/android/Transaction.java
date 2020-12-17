@@ -13,7 +13,7 @@ public class Transaction {
         }
     }
 
-    public String getId() {
+    String getId() {
         return id;
     }
 
